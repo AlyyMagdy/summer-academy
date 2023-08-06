@@ -10,8 +10,7 @@ def get_single_user_email(num):
         joke_data = response.json()
         joke = joke_data['data']
         print(joke["email"])
-        return joke
+        return joke["email"]
     else:
         print("Unexpected status code:", response.status_code)
         return None
-
