@@ -1,4 +1,4 @@
 *.html
 *.xml
 __pycache__
-
+geckodriver.log
