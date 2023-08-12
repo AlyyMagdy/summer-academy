@@ -4,4 +4,4 @@
 ```pip install -r requirements.txt```
 
 ## To proceed running :
-```robot testcase.robot ```
+```python -m robot testcase.robot ```
